@@ -9,21 +9,58 @@
 /* Begin PBXBuildFile section */
 		45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AAF23B3F31000B24FE6 /* AppDelegate.swift */; };
 		45128AB223B3F31000B24FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB123B3F31000B24FE6 /* ViewController.swift */; };
-		45128AB423B3F31000B24FE6 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB323B3F31000B24FE6 /* Experience.rcproject */; };
 		45128AB723B3F31000B24FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB523B3F31000B24FE6 /* Main.storyboard */; };
 		45128AB923B3F31000B24FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB823B3F31000B24FE6 /* Assets.xcassets */; };
 		45128ABC23B3F31000B24FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128ABA23B3F31000B24FE6 /* LaunchScreen.storyboard */; };
+		45128AC423B3F3E100B24FE6 /* Holidario.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 45128AC323B3F3E100B24FE6 /* Holidario.rcproject */; };
+		45128ACC23B3F47E00B24FE6 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45128ACB23B3F47E00B24FE6 /* Messages.framework */; };
+		45128ACF23B3F47E00B24FE6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128ACE23B3F47E00B24FE6 /* MessagesViewController.swift */; };
+		45128AD223B3F47E00B24FE6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128AD023B3F47E00B24FE6 /* MainInterface.storyboard */; };
+		45128AD423B3F48000B24FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45128AD323B3F48000B24FE6 /* Assets.xcassets */; };
+		45128AD823B3F48000B24FE6 /* Holidario Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45128AC923B3F47E00B24FE6 /* Holidario Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45128ADE23B421AF00B24FE6 /* HolidarioStickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45128AD623B3F48000B24FE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45128AA423B3F31000B24FE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45128AC823B3F47E00B24FE6;
+			remoteInfo = "Holidario Stickers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45128ADC23B3F48000B24FE6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45128AD823B3F48000B24FE6 /* Holidario Stickers.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45128AAC23B3F31000B24FE6 /* Holidario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holidario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45128AAF23B3F31000B24FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45128AB123B3F31000B24FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45128AB323B3F31000B24FE6 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		45128AB623B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45128AB823B3F31000B24FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45128ABB23B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45128ABD23B3F31000B24FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45128AC323B3F3E100B24FE6 /* Holidario.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Holidario.rcproject; sourceTree = "<group>"; };
+		45128AC923B3F47E00B24FE6 /* Holidario Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Holidario Stickers.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45128ACB23B3F47E00B24FE6 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		45128ACE23B3F47E00B24FE6 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		45128AD123B3F47E00B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		45128AD323B3F48000B24FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45128AD523B3F48000B24FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidarioStickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +71,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45128AC623B3F47E00B24FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45128ACC23B3F47E00B24FE6 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				45128AAE23B3F31000B24FE6 /* Holidario */,
+				45128ACD23B3F47E00B24FE6 /* Holidario Stickers */,
+				45128ACA23B3F47E00B24FE6 /* Frameworks */,
 				45128AAD23B3F31000B24FE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				45128AAC23B3F31000B24FE6 /* Holidario.app */,
+				45128AC923B3F47E00B24FE6 /* Holidario Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,13 +106,33 @@
 			children = (
 				45128AAF23B3F31000B24FE6 /* AppDelegate.swift */,
 				45128AB123B3F31000B24FE6 /* ViewController.swift */,
-				45128AB323B3F31000B24FE6 /* Experience.rcproject */,
+				45128AC323B3F3E100B24FE6 /* Holidario.rcproject */,
 				45128AB523B3F31000B24FE6 /* Main.storyboard */,
 				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
 				45128ABA23B3F31000B24FE6 /* LaunchScreen.storyboard */,
 				45128ABD23B3F31000B24FE6 /* Info.plist */,
 			);
 			path = Holidario;
+			sourceTree = "<group>";
+		};
+		45128ACA23B3F47E00B24FE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45128ACB23B3F47E00B24FE6 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45128ACD23B3F47E00B24FE6 /* Holidario Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				45128ACE23B3F47E00B24FE6 /* MessagesViewController.swift */,
+				45128AD023B3F47E00B24FE6 /* MainInterface.storyboard */,
+				45128AD323B3F48000B24FE6 /* Assets.xcassets */,
+				45128AD523B3F48000B24FE6 /* Info.plist */,
+				45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */,
+			);
+			path = "Holidario Stickers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +145,34 @@
 				45128AA823B3F31000B24FE6 /* Sources */,
 				45128AA923B3F31000B24FE6 /* Frameworks */,
 				45128AAA23B3F31000B24FE6 /* Resources */,
+				45128ADC23B3F48000B24FE6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				45128AD723B3F48000B24FE6 /* PBXTargetDependency */,
 			);
 			name = Holidario;
 			productName = Holidario;
 			productReference = 45128AAC23B3F31000B24FE6 /* Holidario.app */;
 			productType = "com.apple.product-type.application";
+		};
+		45128AC823B3F47E00B24FE6 /* Holidario Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45128AD923B3F48000B24FE6 /* Build configuration list for PBXNativeTarget "Holidario Stickers" */;
+			buildPhases = (
+				45128AC523B3F47E00B24FE6 /* Sources */,
+				45128AC623B3F47E00B24FE6 /* Frameworks */,
+				45128AC723B3F47E00B24FE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Holidario Stickers";
+			productName = "Holidario Stickers";
+			productReference = 45128AC923B3F47E00B24FE6 /* Holidario Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +185,9 @@
 				ORGANIZATIONNAME = "Tadreik Campbell";
 				TargetAttributes = {
 					45128AAB23B3F31000B24FE6 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					45128AC823B3F47E00B24FE6 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -116,6 +206,7 @@
 			projectRoot = "";
 			targets = (
 				45128AAB23B3F31000B24FE6 /* Holidario */,
+				45128AC823B3F47E00B24FE6 /* Holidario Stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +222,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45128AC723B3F47E00B24FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45128AD423B3F48000B24FE6 /* Assets.xcassets in Resources */,
+				45128AD223B3F47E00B24FE6 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +238,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45128AC423B3F3E100B24FE6 /* Holidario.rcproject in Sources */,
 				45128AB223B3F31000B24FE6 /* ViewController.swift in Sources */,
 				45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */,
-				45128AB423B3F31000B24FE6 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45128AC523B3F47E00B24FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45128ADE23B421AF00B24FE6 /* HolidarioStickerViewController.swift in Sources */,
+				45128ACF23B3F47E00B24FE6 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45128AD723B3F48000B24FE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45128AC823B3F47E00B24FE6 /* Holidario Stickers */;
+			targetProxy = 45128AD623B3F48000B24FE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		45128AB523B3F31000B24FE6 /* Main.storyboard */ = {
@@ -161,6 +278,14 @@
 				45128ABB23B3F31000B24FE6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45128AD023B3F47E00B24FE6 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45128AD123B3F47E00B24FE6 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +408,7 @@
 		45128AC123B3F31000B24FE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HJXYY5247H;
@@ -301,6 +427,7 @@
 		45128AC223B3F31000B24FE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HJXYY5247H;
@@ -311,6 +438,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadreik.Holidario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45128ADA23B3F48000B24FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJXYY5247H;
+				INFOPLIST_FILE = "Holidario Stickers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tadreik.Holidario.Holidario-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45128ADB23B3F48000B24FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJXYY5247H;
+				INFOPLIST_FILE = "Holidario Stickers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tadreik.Holidario.Holidario-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,6 +500,15 @@
 			buildConfigurations = (
 				45128AC123B3F31000B24FE6 /* Debug */,
 				45128AC223B3F31000B24FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45128AD923B3F48000B24FE6 /* Build configuration list for PBXNativeTarget "Holidario Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45128ADA23B3F48000B24FE6 /* Debug */,
+				45128ADB23B3F48000B24FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
