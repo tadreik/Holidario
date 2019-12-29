@@ -1,3 +1,32 @@
 [
-
+  {
+    "libraryIdentifier" : "0f2fc9fd8cebcc085d16b97bb7b69e9f",
+    "format" : "model",
+    "displayName" : "avatarscene.usdz"
+  },
+  {
+    "libraryIdentifier" : "769968381524b881868d1c2376b486ea",
+    "format" : "model",
+    "displayName" : "christmasball.usdz"
+  },
+  {
+    "libraryIdentifier" : "be69e6eff3d913af7752caa8c98b50bf",
+    "format" : "model",
+    "displayName" : "mansion.usdz"
+  },
+  {
+    "libraryIdentifier" : "41a0a6dad801d4d3636e7eb16abeae23",
+    "format" : "model",
+    "displayName" : "swamp.usdz"
+  },
+  {
+    "libraryIdentifier" : "33421e259b94193a1907b2fa53933c03",
+    "format" : "model",
+    "displayName" : "hunterlodge.usdz"
+  },
+  {
+    "libraryIdentifier" : "99d270a26c04cd75aeb88ec6a97e82f9",
+    "format" : "model",
+    "displayName" : "door.usdz"
+  }
 ]

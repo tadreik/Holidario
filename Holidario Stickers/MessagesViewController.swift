@@ -11,18 +11,20 @@ import Messages
 
 class MessagesViewController: MSMessagesAppViewController {
     
-    var browserViewController: HolidarioStickerViewController!
+    var browserViewController: HolidarioViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        browserViewController = HolidarioStickerViewController(stickerSize: .regular)
+        
+        browserViewController = HolidarioViewController(stickerSize: .regular)
         browserViewController.view.frame = self.view.frame
         self.addChild(browserViewController)
         browserViewController.didMove(toParent: self)
         self.view.addSubview(browserViewController.view)
         browserViewController.loadStickers()
         browserViewController.stickerBrowserView.reloadData()
-        browserViewController.changeBrowserViewBackgroundColor(color: .white)
+        //browserViewController.changeBrowserViewBackgroundColor(color: .white)
+ 
     }
     
     // MARK: - Conversation Handling

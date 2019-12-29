@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AAF23B3F31000B24FE6 /* AppDelegate.swift */; };
-		45128AB223B3F31000B24FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB123B3F31000B24FE6 /* ViewController.swift */; };
+		45128AB223B3F31000B24FE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB123B3F31000B24FE6 /* MainViewController.swift */; };
 		45128AB723B3F31000B24FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB523B3F31000B24FE6 /* Main.storyboard */; };
 		45128AB923B3F31000B24FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB823B3F31000B24FE6 /* Assets.xcassets */; };
 		45128ABC23B3F31000B24FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128ABA23B3F31000B24FE6 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,19 @@
 		45128AD223B3F47E00B24FE6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128AD023B3F47E00B24FE6 /* MainInterface.storyboard */; };
 		45128AD423B3F48000B24FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45128AD323B3F48000B24FE6 /* Assets.xcassets */; };
 		45128AD823B3F48000B24FE6 /* Holidario Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45128AC923B3F47E00B24FE6 /* Holidario Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		45128ADE23B421AF00B24FE6 /* HolidarioStickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */; };
+		45128ADE23B421AF00B24FE6 /* HolidarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128ADD23B421AF00B24FE6 /* HolidarioViewController.swift */; };
+		4538D15923B5274000B2B853 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15323B5274000B2B853 /* 3.png */; };
+		4538D15A23B5274000B2B853 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15423B5274000B2B853 /* 2.png */; };
+		4538D15B23B5274000B2B853 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15523B5274000B2B853 /* 4.png */; };
+		4538D15C23B5274000B2B853 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15623B5274000B2B853 /* 5.png */; };
+		4538D15D23B5274000B2B853 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15723B5274000B2B853 /* 6.png */; };
+		4538D15E23B5274000B2B853 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15823B5274000B2B853 /* 1.png */; };
+		4538D16223B52F0E00B2B853 /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538D16123B52F0E00B2B853 /* OptionsVC.swift */; };
+		45B2D5D323B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 45B2D5D223B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf */; };
+		45B2D5D523B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */; };
+		45FA90DD23B94D13007F2937 /* FirstStart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FA90DC23B94D13007F2937 /* FirstStart.storyboard */; };
+		45FA90DF23B94DE0007F2937 /* Lekton-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */; };
+		45FA90E123B94DE9007F2937 /* Lekton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +60,7 @@
 /* Begin PBXFileReference section */
 		45128AAC23B3F31000B24FE6 /* Holidario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holidario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45128AAF23B3F31000B24FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45128AB123B3F31000B24FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45128AB123B3F31000B24FE6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		45128AB623B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45128AB823B3F31000B24FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45128ABB23B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +72,19 @@
 		45128AD123B3F47E00B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		45128AD323B3F48000B24FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45128AD523B3F48000B24FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidarioStickerViewController.swift; sourceTree = "<group>"; };
+		45128ADD23B421AF00B24FE6 /* HolidarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidarioViewController.swift; sourceTree = "<group>"; };
+		4538D15323B5274000B2B853 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4538D15423B5274000B2B853 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4538D15523B5274000B2B853 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4538D15623B5274000B2B853 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		4538D15723B5274000B2B853 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		4538D15823B5274000B2B853 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4538D16123B52F0E00B2B853 /* OptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
+		45B2D5D223B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		45FA90DC23B94D13007F2937 /* FirstStart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstStart.storyboard; sourceTree = "<group>"; };
+		45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lekton-Bold.ttf"; sourceTree = "<group>"; };
+		45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lekton-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +128,12 @@
 		45128AAE23B3F31000B24FE6 /* Holidario */ = {
 			isa = PBXGroup;
 			children = (
+				45C3BB1C23B5573400E419B1 /* Icons */,
+				45B2D5D123B5137800E3DBCD /* Fonts */,
 				45128AAF23B3F31000B24FE6 /* AppDelegate.swift */,
-				45128AB123B3F31000B24FE6 /* ViewController.swift */,
+				45FA90DC23B94D13007F2937 /* FirstStart.storyboard */,
+				4538D16123B52F0E00B2B853 /* OptionsVC.swift */,
+				45128AB123B3F31000B24FE6 /* MainViewController.swift */,
 				45128AC323B3F3E100B24FE6 /* Holidario.rcproject */,
 				45128AB523B3F31000B24FE6 /* Main.storyboard */,
 				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
@@ -126,13 +154,45 @@
 		45128ACD23B3F47E00B24FE6 /* Holidario Stickers */ = {
 			isa = PBXGroup;
 			children = (
+				4538D15223B526A400B2B853 /* Stickers */,
 				45128ACE23B3F47E00B24FE6 /* MessagesViewController.swift */,
+				45128ADD23B421AF00B24FE6 /* HolidarioViewController.swift */,
 				45128AD023B3F47E00B24FE6 /* MainInterface.storyboard */,
 				45128AD323B3F48000B24FE6 /* Assets.xcassets */,
 				45128AD523B3F48000B24FE6 /* Info.plist */,
-				45128ADD23B421AF00B24FE6 /* HolidarioStickerViewController.swift */,
 			);
 			path = "Holidario Stickers";
+			sourceTree = "<group>";
+		};
+		4538D15223B526A400B2B853 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				4538D15823B5274000B2B853 /* 1.png */,
+				4538D15423B5274000B2B853 /* 2.png */,
+				4538D15323B5274000B2B853 /* 3.png */,
+				4538D15523B5274000B2B853 /* 4.png */,
+				4538D15623B5274000B2B853 /* 5.png */,
+				4538D15723B5274000B2B853 /* 6.png */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+		45B2D5D123B5137800E3DBCD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */,
+				45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */,
+				45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */,
+				45B2D5D223B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		45C3BB1C23B5573400E419B1 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45128ABC23B3F31000B24FE6 /* LaunchScreen.storyboard in Resources */,
+				45B2D5D523B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf in Resources */,
+				45FA90E123B94DE9007F2937 /* Lekton-Regular.ttf in Resources */,
+				45FA90DD23B94D13007F2937 /* FirstStart.storyboard in Resources */,
+				45B2D5D323B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf in Resources */,
+				45FA90DF23B94DE0007F2937 /* Lekton-Bold.ttf in Resources */,
 				45128AB923B3F31000B24FE6 /* Assets.xcassets in Resources */,
 				45128AB723B3F31000B24FE6 /* Main.storyboard in Resources */,
 			);
@@ -226,7 +291,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4538D15D23B5274000B2B853 /* 6.png in Resources */,
+				4538D15E23B5274000B2B853 /* 1.png in Resources */,
+				4538D15923B5274000B2B853 /* 3.png in Resources */,
 				45128AD423B3F48000B24FE6 /* Assets.xcassets in Resources */,
+				4538D15A23B5274000B2B853 /* 2.png in Resources */,
+				4538D15C23B5274000B2B853 /* 5.png in Resources */,
+				4538D15B23B5274000B2B853 /* 4.png in Resources */,
 				45128AD223B3F47E00B24FE6 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45128AC423B3F3E100B24FE6 /* Holidario.rcproject in Sources */,
-				45128AB223B3F31000B24FE6 /* ViewController.swift in Sources */,
+				45128AB223B3F31000B24FE6 /* MainViewController.swift in Sources */,
 				45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */,
+				4538D16223B52F0E00B2B853 /* OptionsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45128ADE23B421AF00B24FE6 /* HolidarioStickerViewController.swift in Sources */,
+				45128ADE23B421AF00B24FE6 /* HolidarioViewController.swift in Sources */,
 				45128ACF23B3F47E00B24FE6 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
