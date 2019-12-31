@@ -3,12 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FEC2501C7220B1E329D70D9 /* Pods_Holidario.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D2200E8DA64A8407EEC6CA /* Pods_Holidario.framework */; };
+		4510747B23BA3E0A0035CFD0 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510747A23BA3E0A0035CFD0 /* CameraButton.swift */; };
+		4510747D23BABE7B0035CFD0 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510747C23BABE7B0035CFD0 /* CreditsVC.swift */; };
+		4510747F23BABFC30035CFD0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510747E23BABFC30035CFD0 /* Person.swift */; };
+		4510748123BAC5100035CFD0 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4510748023BAC5100035CFD0 /* PersonCell.swift */; };
 		45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AAF23B3F31000B24FE6 /* AppDelegate.swift */; };
-		45128AB223B3F31000B24FE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB123B3F31000B24FE6 /* MainViewController.swift */; };
+		45128AB223B3F31000B24FE6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45128AB123B3F31000B24FE6 /* MainVC.swift */; };
 		45128AB723B3F31000B24FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB523B3F31000B24FE6 /* Main.storyboard */; };
 		45128AB923B3F31000B24FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45128AB823B3F31000B24FE6 /* Assets.xcassets */; };
 		45128ABC23B3F31000B24FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45128ABA23B3F31000B24FE6 /* LaunchScreen.storyboard */; };
@@ -26,6 +31,7 @@
 		4538D15D23B5274000B2B853 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15723B5274000B2B853 /* 6.png */; };
 		4538D15E23B5274000B2B853 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4538D15823B5274000B2B853 /* 1.png */; };
 		4538D16223B52F0E00B2B853 /* OptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538D16123B52F0E00B2B853 /* OptionsVC.swift */; };
+		45879D0F23BAD5110014884C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45879D0E23BAD5110014884C /* GoogleService-Info.plist */; };
 		45B2D5D323B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 45B2D5D223B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf */; };
 		45B2D5D523B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */; };
 		45FA90DD23B94D13007F2937 /* FirstStart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FA90DC23B94D13007F2937 /* FirstStart.storyboard */; };
@@ -58,9 +64,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4510747A23BA3E0A0035CFD0 /* CameraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		4510747C23BABE7B0035CFD0 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
+		4510747E23BABFC30035CFD0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4510748023BAC5100035CFD0 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 		45128AAC23B3F31000B24FE6 /* Holidario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holidario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45128AAF23B3F31000B24FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45128AB123B3F31000B24FE6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45128AB123B3F31000B24FE6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		45128AB623B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45128AB823B3F31000B24FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45128ABB23B3F31000B24FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,11 +90,15 @@
 		4538D15723B5274000B2B853 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		4538D15823B5274000B2B853 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		4538D16123B52F0E00B2B853 /* OptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsVC.swift; sourceTree = "<group>"; };
+		45879D0E23BAD5110014884C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45B2D5D223B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
 		45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
-		45FA90DC23B94D13007F2937 /* FirstStart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstStart.storyboard; sourceTree = "<group>"; };
+		45FA90DC23B94D13007F2937 /* FirstStart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = FirstStart.storyboard; path = Base.lproj/FirstStart.storyboard; sourceTree = "<group>"; };
 		45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lekton-Bold.ttf"; sourceTree = "<group>"; };
 		45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lekton-Regular.ttf"; sourceTree = "<group>"; };
+		91C3F3637BA055537D9B7999 /* Pods-Holidario.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holidario.debug.xcconfig"; path = "Target Support Files/Pods-Holidario/Pods-Holidario.debug.xcconfig"; sourceTree = "<group>"; };
+		B9D2200E8DA64A8407EEC6CA /* Pods_Holidario.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holidario.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E4CCB5DB99775B55780EA5 /* Pods-Holidario.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holidario.release.xcconfig"; path = "Target Support Files/Pods-Holidario/Pods-Holidario.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEC2501C7220B1E329D70D9 /* Pods_Holidario.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +128,7 @@
 				45128ACD23B3F47E00B24FE6 /* Holidario Stickers */,
 				45128ACA23B3F47E00B24FE6 /* Frameworks */,
 				45128AAD23B3F31000B24FE6 /* Products */,
+				5C242292764DDBE5DC7F5B1C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,13 +147,17 @@
 				45C3BB1C23B5573400E419B1 /* Icons */,
 				45B2D5D123B5137800E3DBCD /* Fonts */,
 				45128AAF23B3F31000B24FE6 /* AppDelegate.swift */,
-				45FA90DC23B94D13007F2937 /* FirstStart.storyboard */,
+				45128AB123B3F31000B24FE6 /* MainVC.swift */,
 				4538D16123B52F0E00B2B853 /* OptionsVC.swift */,
-				45128AB123B3F31000B24FE6 /* MainViewController.swift */,
-				45128AC323B3F3E100B24FE6 /* Holidario.rcproject */,
-				45128AB523B3F31000B24FE6 /* Main.storyboard */,
-				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
+				4510747C23BABE7B0035CFD0 /* CreditsVC.swift */,
+				4510748023BAC5100035CFD0 /* PersonCell.swift */,
+				4510747E23BABFC30035CFD0 /* Person.swift */,
+				4510747A23BA3E0A0035CFD0 /* CameraButton.swift */,
 				45128ABA23B3F31000B24FE6 /* LaunchScreen.storyboard */,
+				45FA90DC23B94D13007F2937 /* FirstStart.storyboard */,
+				45128AB523B3F31000B24FE6 /* Main.storyboard */,
+				45128AC323B3F3E100B24FE6 /* Holidario.rcproject */,
+				45879D0E23BAD5110014884C /* GoogleService-Info.plist */,
 				45128ABD23B3F31000B24FE6 /* Info.plist */,
 			);
 			path = Holidario;
@@ -147,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				45128ACB23B3F47E00B24FE6 /* Messages.framework */,
+				B9D2200E8DA64A8407EEC6CA /* Pods_Holidario.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +201,7 @@
 		45B2D5D123B5137800E3DBCD /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
 				45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */,
 				45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */,
 				45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */,
@@ -195,6 +217,15 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
+		5C242292764DDBE5DC7F5B1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C3F3637BA055537D9B7999 /* Pods-Holidario.debug.xcconfig */,
+				E1E4CCB5DB99775B55780EA5 /* Pods-Holidario.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,10 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45128AC023B3F31000B24FE6 /* Build configuration list for PBXNativeTarget "Holidario" */;
 			buildPhases = (
+				93C2C203340BFB2CC2E9E94F /* [CP] Check Pods Manifest.lock */,
 				45128AA823B3F31000B24FE6 /* Sources */,
 				45128AA923B3F31000B24FE6 /* Frameworks */,
 				45128AAA23B3F31000B24FE6 /* Resources */,
 				45128ADC23B3F48000B24FE6 /* Embed App Extensions */,
+				ADFEF3B87045F2077C717A9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +311,7 @@
 			files = (
 				45128ABC23B3F31000B24FE6 /* LaunchScreen.storyboard in Resources */,
 				45B2D5D523B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf in Resources */,
+				45879D0F23BAD5110014884C /* GoogleService-Info.plist in Resources */,
 				45FA90E123B94DE9007F2937 /* Lekton-Regular.ttf in Resources */,
 				45FA90DD23B94D13007F2937 /* FirstStart.storyboard in Resources */,
 				45B2D5D323B513ED00E3DBCD /* SF-Pro-Rounded-Regular.otf in Resources */,
@@ -304,13 +338,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93C2C203340BFB2CC2E9E94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holidario-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADFEF3B87045F2077C717A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holidario/Pods-Holidario-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Holidario/Pods-Holidario-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Holidario/Pods-Holidario-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45128AA823B3F31000B24FE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45128AC423B3F3E100B24FE6 /* Holidario.rcproject in Sources */,
-				45128AB223B3F31000B24FE6 /* MainViewController.swift in Sources */,
+				45128AB223B3F31000B24FE6 /* MainVC.swift in Sources */,
+				4510748123BAC5100035CFD0 /* PersonCell.swift in Sources */,
+				4510747B23BA3E0A0035CFD0 /* CameraButton.swift in Sources */,
+				4510747D23BABE7B0035CFD0 /* CreditsVC.swift in Sources */,
+				4510747F23BABFC30035CFD0 /* Person.swift in Sources */,
 				45128AB023B3F31000B24FE6 /* AppDelegate.swift in Sources */,
 				4538D16223B52F0E00B2B853 /* OptionsVC.swift in Sources */,
 			);
@@ -479,6 +559,7 @@
 		};
 		45128AC123B3F31000B24FE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C3F3637BA055537D9B7999 /* Pods-Holidario.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -489,6 +570,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadreik.Holidario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -498,6 +580,7 @@
 		};
 		45128AC223B3F31000B24FE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E4CCB5DB99775B55780EA5 /* Pods-Holidario.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -508,6 +591,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tadreik.Holidario;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

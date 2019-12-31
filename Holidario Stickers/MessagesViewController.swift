@@ -23,7 +23,6 @@ class MessagesViewController: MSMessagesAppViewController {
         self.view.addSubview(browserViewController.view)
         browserViewController.loadStickers()
         browserViewController.stickerBrowserView.reloadData()
-        //browserViewController.changeBrowserViewBackgroundColor(color: .white)
  
     }
     

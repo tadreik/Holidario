@@ -12,21 +12,16 @@ import RealityKit
 
 class MainViewController: UIViewController {
     
-    // MARK: IBOutlets
-    
     let defaults = UserDefaults.standard
-    let selection = UISelectionFeedbackGenerator()
     
     @IBOutlet var arView: ARView!
     
-    // MARK: Variables
-
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         // Prevent the screen from being dimmed to avoid interuppting the AR experience.
         UIApplication.shared.isIdleTimerDisabled = true
-
+        
         // Start the ARSession.
         resetTracking()
     }
@@ -36,9 +31,9 @@ class MainViewController: UIViewController {
         
         // Load the "Enter" scene from the "Holidario" Reality File
         let enterAnchor = try! Holidario.loadEnter()
-        
         // Add the enter anchor to the scene
         arView.scene.anchors.append(enterAnchor)
+        
         
     }
     
@@ -59,7 +54,7 @@ class MainViewController: UIViewController {
         config.frameSemantics = .personSegmentationWithDepth
         
         arView.session.run(config, options: [.resetTracking, .removeExistingAnchors])
-
+        
     }
     
     // MARK: - Error handling
@@ -79,4 +74,6 @@ class MainViewController: UIViewController {
     override var prefersHomeIndicatorAutoHidden: Bool {
         return false
     }
+    
+    
 }

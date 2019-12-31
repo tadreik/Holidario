@@ -12,7 +12,7 @@ class OptionsVC: UITableViewController {
     
     let defaults = UserDefaults.standard
     let selection = UISelectionFeedbackGenerator()
-
+    
     @IBOutlet weak var hapticSwitch: UISwitch!
     @IBOutlet weak var iconSwitch: UISwitch!
     
@@ -53,6 +53,8 @@ class OptionsVC: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
+    
+    
     @IBAction func didTap(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -69,5 +71,5 @@ class OptionsVC: UITableViewController {
             }
         })
     }
-
+    
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>435275701405-ak64dljokqv97bdor7hko0cftgje9669.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.435275701405-ak64dljokqv97bdor7hko0cftgje9669</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCLYcWw7RTgmqo6d9320eZ7dHLMt9yheC4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>435275701405</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tadreik.Holidario</string>
+	<key>PROJECT_ID</key>
+	<string>holidar-io</string>
+	<key>STORAGE_BUCKET</key>
+	<string>holidar-io.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:435275701405:ios:b558324ffcf89c42f8c874</string>
+	<key>DATABASE_URL</key>
+	<string>https://holidar-io.firebaseio.com</string>
+</dict>
+</plist>
