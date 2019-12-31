@@ -10,9 +10,6 @@
         <array key="Lekton-Regular.ttf">
             <string>Lekton-Regular</string>
         </array>
-        <array key="SF-Pro-Rounded-Medium.otf">
-            <string>SFProRounded-Medium</string>
-        </array>
     </customFonts>
     <scenes>
         <!--Options-->
@@ -46,6 +43,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="42A-NV-WGy" secondAttribute="bottom" constant="8" id="KPa-vC-Yds"/>
                                                 <constraint firstItem="wFH-i3-0a3" firstAttribute="top" secondItem="DMZ-SC-6NB" secondAttribute="top" constant="8" id="M6d-3x-82K"/>
+                                                <constraint firstItem="wFH-i3-0a3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="42A-NV-WGy" secondAttribute="trailing" priority="250" constant="8" symbolic="YES" id="Xbc-hA-uXz"/>
                                                 <constraint firstItem="wFH-i3-0a3" firstAttribute="centerY" secondItem="DMZ-SC-6NB" secondAttribute="centerY" id="ZXb-Y3-GcI"/>
                                                 <constraint firstItem="42A-NV-WGy" firstAttribute="leading" secondItem="DMZ-SC-6NB" secondAttribute="leading" constant="20" id="aPa-Tc-zpK"/>
                                                 <constraint firstItem="42A-NV-WGy" firstAttribute="top" secondItem="DMZ-SC-6NB" secondAttribute="top" constant="8" id="dbC-yH-dwc"/>
@@ -73,6 +71,7 @@
                                                 </switch>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="IW4-hc-N9o" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qSj-Xv-VhY" secondAttribute="trailing" priority="250" constant="8" symbolic="YES" id="93b-KI-csu"/>
                                                 <constraint firstAttribute="trailing" secondItem="IW4-hc-N9o" secondAttribute="trailing" constant="20" id="AT2-vY-M8r"/>
                                                 <constraint firstAttribute="bottom" secondItem="qSj-Xv-VhY" secondAttribute="bottom" constant="8" id="DTL-RH-QqC"/>
                                                 <constraint firstAttribute="bottom" secondItem="IW4-hc-N9o" secondAttribute="bottom" constant="8" id="TrB-Qh-iaW"/>
@@ -102,8 +101,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7v-IL-fOg">
-                                                    <rect key="frame" x="331.5" y="8" width="22.5" height="34"/>
-                                                    <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="17"/>
+                                                    <rect key="frame" x="330" y="8" width="24" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -113,6 +112,7 @@
                                                 <constraint firstItem="o7v-IL-fOg" firstAttribute="top" secondItem="DMb-q0-BP9" secondAttribute="top" constant="8" id="GNd-pb-XzQ"/>
                                                 <constraint firstItem="1k6-Pn-IJs" firstAttribute="top" secondItem="DMb-q0-BP9" secondAttribute="top" constant="8" id="Hjv-EY-cpX"/>
                                                 <constraint firstAttribute="bottom" secondItem="o7v-IL-fOg" secondAttribute="bottom" constant="8" id="Ph6-HQ-SyS"/>
+                                                <constraint firstItem="o7v-IL-fOg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1k6-Pn-IJs" secondAttribute="trailing" priority="250" constant="245" id="QqT-pj-y1w"/>
                                                 <constraint firstItem="1k6-Pn-IJs" firstAttribute="leading" secondItem="DMb-q0-BP9" secondAttribute="leading" constant="20" id="bfM-ie-JAP"/>
                                                 <constraint firstAttribute="trailing" secondItem="o7v-IL-fOg" secondAttribute="trailing" constant="20" id="j6h-Hw-FmR"/>
                                             </constraints>
@@ -133,7 +133,7 @@
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAz-xP-Wkm">
                                                     <rect key="frame" x="346" y="8" width="8" height="34"/>
-                                                    <fontDescription key="fontDescription" name="SFProRounded-Medium" family="SF Pro Rounded" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -143,6 +143,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="Cdx-mU-Tqy" secondAttribute="bottom" constant="8" id="6MU-qC-niA"/>
                                                 <constraint firstItem="TAz-xP-Wkm" firstAttribute="top" secondItem="s3i-ND-YDO" secondAttribute="top" constant="8" id="ADM-1w-HlQ"/>
                                                 <constraint firstItem="Cdx-mU-Tqy" firstAttribute="leading" secondItem="s3i-ND-YDO" secondAttribute="leading" constant="20" id="MDq-Q9-h7l"/>
+                                                <constraint firstItem="TAz-xP-Wkm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Cdx-mU-Tqy" secondAttribute="trailing" priority="250" constant="8" symbolic="YES" id="k0L-gM-4Hf"/>
                                                 <constraint firstAttribute="trailing" secondItem="TAz-xP-Wkm" secondAttribute="trailing" constant="20" id="yzq-69-9VT"/>
                                                 <constraint firstAttribute="bottom" secondItem="TAz-xP-Wkm" secondAttribute="bottom" constant="8" id="z7p-kG-cuu"/>
                                             </constraints>
@@ -165,6 +166,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="OLn-P9-Unj" secondAttribute="bottom" constant="8" id="1bn-wW-4oX"/>
                                                 <constraint firstItem="OLn-P9-Unj" firstAttribute="leading" secondItem="Hcm-Ov-UyL" secondAttribute="leading" constant="20" id="PKM-GS-tvd"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OLn-P9-Unj" secondAttribute="trailing" priority="250" constant="20" symbolic="YES" id="gPT-c1-sEZ"/>
                                                 <constraint firstItem="OLn-P9-Unj" firstAttribute="top" secondItem="Hcm-Ov-UyL" secondAttribute="top" constant="8" id="t0Y-3K-vdh"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -191,6 +193,7 @@
                                                 <constraint firstItem="dH5-r1-FBu" firstAttribute="top" secondItem="Txd-4z-oxc" secondAttribute="top" constant="8" id="fca-Xa-07e"/>
                                                 <constraint firstItem="dH5-r1-FBu" firstAttribute="leading" secondItem="Txd-4z-oxc" secondAttribute="leading" constant="20" id="i7i-u5-ckn"/>
                                                 <constraint firstAttribute="bottom" secondItem="dH5-r1-FBu" secondAttribute="bottom" constant="8" id="j9V-Q3-QOs"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dH5-r1-FBu" secondAttribute="trailing" priority="250" constant="20" symbolic="YES" id="nKS-11-3if"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -243,16 +246,17 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ivanix88" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xse-hz-LXZ">
-                                            <rect key="frame" x="247" y="11.5" width="76" height="27"/>
+                                            <rect key="frame" x="257" y="11.5" width="76" height="27"/>
                                             <fontDescription key="fontDescription" name="Lekton-Regular" family="Lekton" pointSize="19"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="Xse-hz-LXZ" secondAttribute="trailing" constant="20" id="B37-7x-KRu"/>
+                                        <constraint firstAttribute="trailing" secondItem="Xse-hz-LXZ" secondAttribute="trailing" constant="10" id="B37-7x-KRu"/>
                                         <constraint firstItem="TnJ-pU-ma9" firstAttribute="leading" secondItem="oZD-Dj-DYm" secondAttribute="leading" constant="20" id="Mck-Uz-G5o"/>
                                         <constraint firstAttribute="bottom" secondItem="TnJ-pU-ma9" secondAttribute="bottom" constant="11.5" id="Qto-f9-I5W"/>
+                                        <constraint firstItem="Xse-hz-LXZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="TnJ-pU-ma9" secondAttribute="trailing" priority="250" constant="8" symbolic="YES" id="faa-Z5-vy3"/>
                                         <constraint firstAttribute="bottom" secondItem="Xse-hz-LXZ" secondAttribute="bottom" constant="11.5" id="fi4-AZ-mzQ"/>
                                         <constraint firstItem="TnJ-pU-ma9" firstAttribute="top" secondItem="oZD-Dj-DYm" secondAttribute="top" constant="11" id="gwj-yK-PRI"/>
                                         <constraint firstItem="Xse-hz-LXZ" firstAttribute="top" secondItem="oZD-Dj-DYm" secondAttribute="top" constant="11.5" id="pFe-d5-79j"/>

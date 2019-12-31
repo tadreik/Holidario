@@ -24,9 +24,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you ready to start your experience?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Spg-CW-6Dw">
-                                <rect key="frame" x="20" y="66" width="374" height="115"/>
+                                <rect key="frame" x="20" y="66" width="374" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Spg-CW-6Dw" secondAttribute="height" multiplier="335:103" id="QcZ-Vp-uWc"/>
+                                    <constraint firstAttribute="height" constant="180" id="6bf-5g-rka"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Lekton-Bold" family="Lekton" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -36,13 +36,10 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UrF-hE-b6g">
-                                <rect key="frame" x="20" y="219.00000000000003" width="374" height="389.66666666666674"/>
+                                <rect key="frame" x="20" y="284" width="374" height="332"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Holidario needs access to your camera to start the augmented reality experience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gq-fe-r7A">
-                                <rect key="frame" x="20" y="658.66666666666663" width="374" height="70.333333333333371"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="9Gq-fe-r7A" secondAttribute="height" multiplier="335:63" id="aez-Kx-8Pk"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="666" width="374" height="63"/>
                                 <fontDescription key="fontDescription" name="Lekton-Regular" family="Lekton" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,18 +63,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="9Gq-fe-r7A" firstAttribute="top" secondItem="UrF-hE-b6g" secondAttribute="bottom" constant="50" id="2Li-67-mF7"/>
-                            <constraint firstItem="9Gq-fe-r7A" firstAttribute="centerX" secondItem="SgR-mE-MsQ" secondAttribute="centerX" id="2Va-Yk-v8N"/>
                             <constraint firstItem="SgR-mE-MsQ" firstAttribute="trailing" secondItem="9Gq-fe-r7A" secondAttribute="trailing" constant="20" id="8tK-FE-UHL"/>
+                            <constraint firstItem="Spg-CW-6Dw" firstAttribute="leading" secondItem="SgR-mE-MsQ" secondAttribute="leading" constant="20" id="9Wd-am-saE"/>
                             <constraint firstItem="A0L-TH-3hy" firstAttribute="centerX" secondItem="SgR-mE-MsQ" secondAttribute="centerX" id="EBp-EI-7JQ"/>
                             <constraint firstItem="UrF-hE-b6g" firstAttribute="centerX" secondItem="SgR-mE-MsQ" secondAttribute="centerX" id="HVY-9U-AWF"/>
-                            <constraint firstItem="Spg-CW-6Dw" firstAttribute="centerX" secondItem="SgR-mE-MsQ" secondAttribute="centerX" id="Jpt-yK-KhS"/>
                             <constraint firstItem="UrF-hE-b6g" firstAttribute="top" secondItem="Spg-CW-6Dw" secondAttribute="bottom" constant="38" id="QuF-de-ikC"/>
-                            <constraint firstItem="SgR-mE-MsQ" firstAttribute="trailing" secondItem="Spg-CW-6Dw" secondAttribute="trailing" constant="20" id="SkN-1D-zMD"/>
                             <constraint firstItem="9Gq-fe-r7A" firstAttribute="leading" secondItem="SgR-mE-MsQ" secondAttribute="leading" constant="20" id="U4u-DQ-LI6"/>
+                            <constraint firstItem="SgR-mE-MsQ" firstAttribute="trailing" secondItem="Spg-CW-6Dw" secondAttribute="trailing" constant="20" id="hVg-hn-aFM"/>
                             <constraint firstItem="A0L-TH-3hy" firstAttribute="top" secondItem="9Gq-fe-r7A" secondAttribute="bottom" constant="40" id="jKz-o9-5mi"/>
                             <constraint firstItem="Spg-CW-6Dw" firstAttribute="top" secondItem="SgR-mE-MsQ" secondAttribute="top" constant="22" id="r0D-Pg-S3d"/>
                             <constraint firstItem="SgR-mE-MsQ" firstAttribute="trailing" secondItem="UrF-hE-b6g" secondAttribute="trailing" constant="20" id="siu-mF-4tp"/>
-                            <constraint firstItem="Spg-CW-6Dw" firstAttribute="leading" secondItem="SgR-mE-MsQ" secondAttribute="leading" constant="20" id="tgs-wj-seL"/>
                             <constraint firstItem="SgR-mE-MsQ" firstAttribute="bottom" secondItem="A0L-TH-3hy" secondAttribute="bottom" constant="30" id="xXN-LG-wbQ"/>
                             <constraint firstItem="UrF-hE-b6g" firstAttribute="leading" secondItem="SgR-mE-MsQ" secondAttribute="leading" constant="20" id="zLc-Od-GXV"/>
                         </constraints>
