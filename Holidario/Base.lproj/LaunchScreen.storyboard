@@ -14,21 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Holidario" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="qWa-Yb-J04">
-                                <rect key="frame" x="8" y="52" width="398" height="802"/>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="33"/>
-                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qWa-Yb-J04" secondAttribute="bottom" constant="8" id="b3c-AY-DFA"/>
-                            <constraint firstItem="qWa-Yb-J04" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="cwV-BG-jMW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qWa-Yb-J04" secondAttribute="trailing" constant="8" id="tVK-Wg-b4g"/>
-                            <constraint firstItem="qWa-Yb-J04" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="yGp-jP-jog"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

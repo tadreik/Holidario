@@ -18,11 +18,15 @@ class CreditsVC: UITableViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         addPeople()
     }
     
     func addPeople() {
-        tableView.reloadData()
         database = Firestore.firestore()
         database.collection("people").getDocuments() { (querySnapshot, err) in
             if let err = err {

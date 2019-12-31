@@ -146,6 +146,7 @@
 			children = (
 				45C3BB1C23B5573400E419B1 /* Icons */,
 				45B2D5D123B5137800E3DBCD /* Fonts */,
+				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
 				45128AAF23B3F31000B24FE6 /* AppDelegate.swift */,
 				45128AB123B3F31000B24FE6 /* MainVC.swift */,
 				4538D16123B52F0E00B2B853 /* OptionsVC.swift */,
@@ -201,7 +202,6 @@
 		45B2D5D123B5137800E3DBCD /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				45128AB823B3F31000B24FE6 /* Assets.xcassets */,
 				45FA90E023B94DE9007F2937 /* Lekton-Regular.ttf */,
 				45FA90DE23B94DE0007F2937 /* Lekton-Bold.ttf */,
 				45B2D5D423B5143500E3DBCD /* SF-Pro-Rounded-Medium.otf */,
