@@ -12,6 +12,7 @@
 		450B436A2532069D00F502BF /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 450B43692532069D00F502BF /* Experience.rcproject */; };
 		450B436C2532069D00F502BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450B436B2532069D00F502BF /* Assets.xcassets */; };
 		450B436F2532069D00F502BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450B436E2532069D00F502BF /* Preview Assets.xcassets */; };
+		45A5EAA225A6299E00CE76E8 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5EAA125A6299E00CE76E8 /* LandingPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		450B436B2532069D00F502BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450B436E2532069D00F502BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		450B43702532069D00F502BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A5EAA125A6299E00CE76E8 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,9 @@
 		450B43642532069D00F502BF /* Holidario */ = {
 			isa = PBXGroup;
 			children = (
+				450B437725320A6F00F502BF /* Objects */,
 				450B43652532069D00F502BF /* AppDelegate.swift */,
+				45A5EAA125A6299E00CE76E8 /* LandingPage.swift */,
 				450B43672532069D00F502BF /* ContentView.swift */,
 				450B43692532069D00F502BF /* Experience.rcproject */,
 				450B436B2532069D00F502BF /* Assets.xcassets */,
@@ -70,6 +74,13 @@
 				450B436E2532069D00F502BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		450B437725320A6F00F502BF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				450B43682532069D00F502BF /* ContentView.swift in Sources */,
 				450B43662532069D00F502BF /* AppDelegate.swift in Sources */,
+				45A5EAA225A6299E00CE76E8 /* LandingPage.swift in Sources */,
 				450B436A2532069D00F502BF /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
